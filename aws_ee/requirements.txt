@@ -1,6 +1,7 @@
 pysnow
 requests
 netaddr
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
 #
 # When updating the minimal requirements please also update
 # - tests/unit/constraints.txt
